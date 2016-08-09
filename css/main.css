@@ -1,7 +1,3 @@
-/*--------------------------------------------------
------------------------ Base styles ----------------
----------------------------------------------------*/
-
 @media (min-width: 1200px) {
     .container {
         width: 1130px !important;
@@ -101,9 +97,6 @@ a {
 }
 
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-/*--------------------------------------------------
----------------------- resp-tabs -------------------
----------------------------------------------------*/
 
 .icon_menu {
     font-size: 22px;
@@ -196,9 +189,6 @@ h2.resp-tab-title:last-child {
     border-bottom: 12px solid #ccc !important;
     background: blue;
 }
-/*-----------------------------------*/
-/*-----------Vertical tabs-----------*/
-/*-----------------------------------*/
 
 .resp-vtabs ul.resp-tabs-list {
     float: left;
@@ -264,9 +254,7 @@ h2.resp-tab-active span.resp-arrow {
     border-right: 6px solid transparent;
     border-bottom: 12px solid #9B9797;
 }
-/*-----------------------------------*/
-/*---------Accordion styles----------*/
-/*-----------------------------------*/
+
 
 .resp-easy-accordion h2.resp-accordion {
     display: block;
@@ -288,7 +276,6 @@ h2.resp-accordion:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
 @media only screen and (max-width: 800px) {
     ul.resp-tabs-list {
         display: none;
@@ -388,10 +375,6 @@ h2.resp-accordion:hover {
     background: #282828;
 }
 
-/*--------------------------------------------------
-------------------- Google Maps --------------------
----------------------------------------------------*/
-
 #map {
     display: block;
     width: 100% !important;
@@ -439,9 +422,6 @@ h2.resp-accordion:hover {
     border-right: 16px solid transparent;
     border-bottom: 16px solid #336699;
 }
-/*--------------------------------------------------
------------------------ Contact --------------------
----------------------------------------------------*/
 
 #contact-user {
     padding: 30px 0;
@@ -555,10 +535,6 @@ h2.resp-accordion:hover {
     -moz-box-sizing:border-box;
     box-sizing:border-box;		
 }
-
-/*--------------------------------------------------
------------------------ Portfolio ------------------
----------------------------------------------------*/
 
 .container-portfolio { 
     position: relative; 
@@ -686,8 +662,7 @@ h2.resp-accordion:hover {
 
 }
 
-/* #Clearing */
-/* Self Clearing Goodness */
+
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .clearfix:before,
@@ -716,9 +691,6 @@ h2.resp-accordion:hover {
     height: 0;
 }
 
-/*--------------------------------------------------
----------------------- Title  ---------------------
----------------------------------------------------*/
 .title_content {
     display: inline-block;
     font-size: 20px;
@@ -749,9 +721,7 @@ h2.resp-accordion:hover {
     padding-top: 2px;
     margin-bottom: 5px;
 }
-/*--------------------------------------------------
----------------------- Profile ---------------------
----------------------------------------------------*/
+
 #profile .about i.glyphicon  {
     margin-right: 3px;
 }
@@ -816,7 +786,6 @@ ul.about {
     margin-top: 60px;
     margin-bottom: 20px;
 }
-/** style profile 3 **/
 .ch-grid-prof {
     margin: 20px 0 0 0;
     padding: 0;
@@ -904,11 +873,6 @@ ul.about {
 .ch-items-prof:hover .ch-info-prof p {
     opacity: 1;
 }
-
-
-/*--------------------------------------------------
-------------------- porfil-widget --------------------
----------------------------------------------------*/
 
 .widget-profil{
     height: 580px;   
@@ -1138,13 +1102,6 @@ ul.about {
     }
 }
 
-/*--------------------------------------------------
-------------- buttion download vcard ---------------
----------------------------------------------------*/
-
-/* Effect 10: reveal, push out */
-
-
 .download {
     position: relative;
     display: block;
@@ -1171,7 +1128,6 @@ ul.about {
     position: relative;
     display: inline-block;
     padding: 3px 15px 0;
-    /*box-shadow: inset 0 3px #0390bb;*/
     -webkit-transition: background 0.6s;
     -moz-transition: background 0.6s;
     transition: background 0.6s;
@@ -1209,10 +1165,6 @@ ul.about {
     -moz-transform: rotateX(10deg);
     transform: rotateX(10deg);
 }
-/*--------------------------------------------------
----------------------- Resume ----------------------
----------------------------------------------------*/
-
 #resume .col-md-6 span.duration {
     float: right;
 }
@@ -1256,11 +1208,6 @@ ul.about {
 .reference ul li {
     margin-top: 15px;
 }
-
-/*--------------------------------------------------
-------------------- Skills bar ---------------------
----------------------------------------------------*/
-
 
 .skillbar {
     position: relative;
@@ -1311,10 +1258,6 @@ ul.about {
 }
 
 
-/*--------------------------------------------------
------------------------- Blog ----------------------
----------------------------------------------------*/
-
 .blog-article {
     padding-top: 37px;
     padding-bottom: 35px;
@@ -1359,8 +1302,7 @@ ul.about {
     width: 100%;
     float: left;
     overflow: hidden;
-    position: relative;
-	/* height: 205px;*/
+    position: relative;	
 }
 
 .blog-article:first-child .media {
@@ -1920,10 +1862,6 @@ ul.info-post li {
     transition: color 0.2s ease 0s;
 }
 
-/*--------------------------------------------------
------------- fullscreen slide ----------------------
----------------------------------------------------*/
-
 .cb-slideshow, .cb-slideshow:after {
     position: fixed;
     width: 100%;
@@ -2262,29 +2200,28 @@ ul.info-post li {
 }
 @keyframes titleAnimation {
     0% {
-    opacity: 0;
-    transform: translateX(200px);
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    8% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    17% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    19% {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    25% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
-8% {
-    opacity: 1;
-    transform: translateX(0px);
-}
-17% {
-    opacity: 1;
-    transform: translateX(0px);
-}
-19% {
-    opacity: 0;
-    transform: translateX(-400px);
-}
-25% {
-    opacity: 0
-}
-100% {
-    opacity: 0
-}
-}
-/* Show at least something when animations not supported */
 .no-cssanimations .cb-slideshow li span {
     opacity: 1;
 }
@@ -2324,9 +2261,7 @@ ul.info-post li {
 .icon_content i {
     margin-right: 2px;
 }
-/*--------------------------------------------------
----------------------- All Media -------------------
----------------------------------------------------*/
+
 
 @media screen and (max-width: 240px) {
 
@@ -2565,7 +2500,6 @@ ul.info-post li {
     }
 }
 
-/* The CSS */
 select {
     padding:3px;
     margin: 0;
@@ -2580,7 +2514,6 @@ select {
     cursor:pointer;
 }
 
-/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     select {padding-right:18px}
 }
@@ -2593,16 +2526,16 @@ select {
     height: 30px;
     line-height: 14px;
     font-size: 12px;
-    color: #fff;
-    /* Fallback for IE 8 */
+    color: #fff;    
     background: #3C3E40;
     border: 0;
     border-radius: 0;
     margin-top: 10px;
-    margin-left: 12px;
+    margin-left: 12px;    
+}
 
-    &:focus {
-        z-index: 3;
+.dropdown-select:focus {
+    z-index: 3;
     width: 100%;
     color: #394349;
     outline: 2px solid #49aff2;
@@ -2610,7 +2543,7 @@ select {
     outline-offset: -2px;
 }
 
-> option {
+.dropdown-select > option {
     margin: 3px;
     padding: 6px 8px;
     text-shadow: none;
@@ -2618,16 +2551,13 @@ select {
     border-radius: 3px;
     cursor: pointer;
 }
-}
 
-/* Fix for IE 8 putting the arrows behind the select element. */
-.lt-ie9 {
-    .dropdown { z-index: 1; }
-.dropdown-select { z-index: -1; }
-.dropdown-select:focus { z-index: 3; }
-}
 
-/* Dirty fix for Firefox adding padding where it shouldn't. */
+.lt-ie9 .dropdown { z-index: 1; }
+.lt-ie9 .dropdown-select { z-index: -1; }
+.lt-ie9 .dropdown-select:focus { z-index: 3; }
+
+
 @-moz-document url-prefix() { .dropdown-select { padding-left: 6px; } }
 
 .dropdown-dark {
@@ -2635,24 +2565,24 @@ select {
     border-color: #111 #0a0a0a black;
     @include linear-gradient(top, transparent, rgba(black, .4));
     @include box-shadow(inset 0 1px rgba(white, .1), 0 1px 1px rgba(black, .2));
+}
 
-    &:before { border-bottom-color: #aaa; }
-&:after { border-top-color: #aaa; }
+.dropdown-dark:before { border-bottom-color: #aaa; }
+.dropdown-dark:after { border-top-color: #aaa; }
 
 .dropdown-select {
     color: #aaa;
     text-shadow: 0 1px black;
-    /* Fallback for IE 8 */
     background: #444;
+}
 
-    &:focus { color: #ccc; }
+.dropdown-select:focus { color: #ccc; }    
 
-> option {
+.dropdown-select > option {
     background: #444;
     text-shadow: 0 1px rgba(black, .4);
 }
-}
-}
+
 
 li h6{
     font-size: 13px;
