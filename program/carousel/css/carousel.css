@@ -1,0 +1,76 @@
+/*全局reset */
+
+*{padding:0; margin:0;}
+li{ list-style:none; }
+
+#allWrap { width:700px; height:600px; margin:10px auto 0; border:2px solid #333; position:relative;
+		   /*兼容性*/
+		   -webkit-box-shadow:2px 2px 6px rgba(0,0,0,0.6),-2px -2px 6px rgba(0,0,0,0.6),0 0 30px rgba(0,0,0,0.3)inset;			
+		   -moz-box-shadow:2px 2px 6px rgba(0,0,0,0.6),-2px -2px 6px rgba(0,0,0,0.6),0 0 30px rgba(0,0,0,0.3)inset;			
+		   -ms-box-shadow:2px 2px 6px rgba(0,0,0,0.6),-2px -2px 6px rgba(0,0,0,0.6),0 0 30px rgba(0,0,0,0.3)inset;			
+		   box-shadow:2px 2px 6px rgba(0,0,0,0.6),-2px -2px 6px rgba(0,0,0,0.6),0 0 30px rgba(0,0,0,0.3)inset;
+		   /*兼容性*/
+		   -moz-border-radius:3px/2px;			
+		   border-radius:3px/2px;		   			
+}
+
+/* 大图部分 */
+#placeholder { width:700px; height:400px; margin:0;position:relative; }
+#placeholder>img{ width:700px; height:400px; position:absolute; z-index: 0; }
+#placeholder>img:first-child{ z-index: 1; }
+/*测试
+ *	    
+ */
+
+
+/*---------------------------------------------------------------------------------*/
+ /*按钮部分*/
+.btnLeftWrap { 
+	position:absolute; left:0; top:0;  z-index: 500;	
+	width:350px; height:400px;
+	background:red;
+	filter:alpha(opacity:0);	opacity:0;
+	
+}
+.btnRightWrap{ 
+	position:absolute; right:0; top:0; z-index: 500;	
+	width:350px; height:400px;
+	background:blue;
+	filter:alpha(opacity:0);	opacity:0;
+	
+}
+.btnLeft, .btnRight{ width:80px; height:80px; position:absolute; z-index:501; 
+					 filter:alpha(opacity:0);	opacity:0;cursor:pointer;}
+.btnLeftWrap a,.btnRightWrap a{ width:80px; height:80px; display:block; }
+
+.btnLeft {  left:0; top:150px; }
+.btnRight{ right:0; top:150px; }
+/*按钮部分结束*/
+/*---------------------------------------------------------------------------------*/
+
+
+
+/*小图展示栏部分 */
+#bottomWrap{ width:700px; height:200px;  position:relative; overflow:hidden; background:#ccc;}    
+
+#gallery{ height:200px; background:#ccc; position:absolute; left:0; top:0;}  
+
+#gallery>li{ 
+	width:220px; height:180px; 	
+	padding:10px 0px 10px 10px; float:left;
+	filter:alpha(opacity:30);	opacity:0.3;
+}
+#gallery>li:first-child{ filter:alpha(opacity:100);	opacity:1;}
+
+#gallery li img{ width:218px; height:178px; 
+	border:1px solid #666;
+	-moz-border-radius: 6px/3px;
+	border-radius: 10px/5px;
+	cursor:pointer;
+
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.6),-1px -1px 3px rgba(0,0,0,0.6),0 0 15px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.6),-1px -1px 3px rgba(0,0,0,0.6),0 0 15px rgba(0,0,0,0.3) inset;
+	-ms-box-shadow: 1px 1px 3px rgba(0,0,0,0.6),-1px -1px 3px rgba(0,0,0,0.6),0 0 15px rgba(0,0,0,0.3) inset;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.6),-1px -1px 3px rgba(0,0,0,0.6),0 0 15px rgba(0,0,0,0.3) inset;
+
+}

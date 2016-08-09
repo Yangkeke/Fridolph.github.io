@@ -1,0 +1,107 @@
+/*首页位置信息*/
+.local{width:1100px;margin:0 auto;height:42px;font:14px/42px "微软雅黑";}
+
+/*主内容区域*/
+
+#main{width:1100px;height:1350px;margin:0 auto;}
+.left{float:left;width:262px;height:1350px;overflow:hidden;margin-right:18px;}
+.right{float:left;width:818px;height:1350px;overflow:hidden;}
+
+/*主内容区域——左边*/
+.buyCar{float:left;width:262px;height:464px;}
+.orderBuy,.sellCar,.contact{margin:13px 0;}
+.orderBuy{margin-top:0;}
+
+/*售后保障*/
+.oversell{width:260px;height:146px;border:1px solid #ccc;margin-bottom:26px;}
+.oversell p{font:16px/42px "微软雅黑";color:#232323;text-indent:20px;font-weight:bold;border-bottom:1px solid #ccc;}
+.oversell img{margin:10px 0 0 53px;}
+.oversell a{margin-left:10%;font:14px/40px "微软雅黑";color:#e03020;font-weight:bold;}
+.oversell a:hover{color:#e03a20;text-decoration:none;border-bottom:1px solid #e03020;}
+.orderBuy{width:260px;height:462px;float:left;-webkit-box-shadow:0 3px 5px rgba(0,0,0,0.3);box-shadow:0 3px 5px rgba(0,0,0,0.3);border:1px solid #ccc;}
+.orderBuy p{font:16px/36px "黑体";color:#000;margin:20px auto 10px;text-indent:10px;}
+.orderBuy span{float:right;font-size:12px;font-family:"宋体";color:#666;padding-right:4px;}
+.orderBuy input{height:32px;line-height:32px;background:#f7f7f7;color:#999;width:76%;margin:10% 0 0 10%;}
+.orderBuy .o_submit{height:32px;line-height:32px;color:#fff;text-align:center;background:#eb492d;}
+
+.orderBuy .o_number,.o_name,.o_tel{width:76%;text-indent:20%;color:#999;}
+.orderBuy .o_number{background:url(../images/AMA_icon1.gif) no-repeat;}
+.orderBuy .o_name{background:url(../images/AMA_icon2.gif) no-repeat;}
+.orderBuy .o_tel{background:url(../images/AMA_icon3.gif) no-repeat;}
+
+/*联系我们*/
+.contact{width:260px;height:250px;float:left;-webkit-box-shadow:0 3px 5px rgba(0,0,0,0.3);box-shadow:0 3px 5px rgba(0,0,0,0.3);border:1px solid #ccc;}
+.contact h3{height:40px;font:16px/40px "黑体";margin:0;border-bottom:1px solid #dedede;font-weight:bold;text-indent:10px;}
+.contact p{color:#6a6a6a;font:16px/30px "微软雅黑";text-indent:10%;margin:20px 0;font-weight:bold;}
+.contact p:nth-child(3){color:#ea492d;font:30px/44px "微软雅黑";font-weight:bold;}
+
+.call{width:76%;margin-left:20px;height:32px;line-height:32px;color:#fff;text-align:center;background:#eb492d;}
+
+/*我要卖车*/
+.bs_left{float:left;width:260px;height:282px;border:1px solid #ccc;margin:12px 0;}
+.bs_left p{margin-bottom:20px;font:16px/45px "黑体";color:#242424;border-bottom:1px solid #ccc;font-weight:bold;text-indent:10px;}
+.bs_left p span{font-size:12px; color:#242424;padding-left:8px;font-weight:normal;}
+.bs_left input{width:72%;margin:2% 10%;}
+.bs_left h4{width:50%;margin:8px 10%;font:16px/18px "黑体";color:#999;}
+.bs_left h4:nth-child(1){margin-top:20px;}
+
+.car_text,.car_phone{height:28px;line-height:28px;text-indent:36px;color:#999;}
+.bs_left .car_submit{height:32px;line-height:32px;color:#fff;text-align:center;background:#eb492d;}
+.car_text{background:url(../images/AMA_icon2.gif) no-repeat;}
+.car_phone{background:url(../images/AMA_icon3.gif) no-repeat;}
+
+/*主内容区域——右边*/
+.onservice{width:818px;height:382px;}
+.onservice>h3{font:22px/22px "微软雅黑";margin:0;font-weight:bold;}
+.onservice>img{width:100%;}
+
+
+/*你可能喜欢的车*/
+.wellcar{float:left;height:370px;width:100%;}
+.wellcar>h3{font:22px/22px "微软雅黑";margin:20px 0 10px 0;font-weight:bold;}
+
+.hot_pic{margin:0 auto;width:818px;height:300px;float:left;margin-top:20px;}
+.hot_pic li{float:left;width:31.3%;margin-right:3%;margin-height:298px;border-bottom:2px solid #7fb9ef;background:white;}
+.hot_pic li img{width:100%;}
+.hot_pic li:nth-child(3){margin-right:0;}
+
+
+.hot_pic li h3,#hot_pic li p,#hot_pic li img{cursor:pointer;}
+
+.hot_pic .title{text-indent:10px;font-size:15px;line-height:30px;font-family:"黑体";color:#222;margin:0;padding:0;}
+.hot_pic .time{margin-bottom:0;text-indent:10px;font-size:12px;line-height:30px;font-family:"黑体";color:#666666;margin-right:10px;margin-right:5%;}
+.hot_pic .km{float:right;}
+.hot_pic .n_text{margin-bottom:0;text-indent:10px;color:#1e1e1e;font:14px "黑体";}
+.hot_pic .n_price{text-indent:10px;color:#eb492d;font:18px "黑体";}
+.hot_pic .b_price{text-decoration:line-through;float:right;margin-right:10px;margin-right:5%;}
+
+/*名车鉴赏*/
+.car_title{float:left;width:100%;font:22px/40px "微软雅黑";height:40px;margin:10px 0;}
+
+.cars_box{width:818px;height:400px;float:left;margin-top:20px;}
+.cars_box>div{float:left;height:180px;}
+.cars_box .car1{width:275px;background:url(../images/car/01.jpg) no-repeat;}
+.cars_box .car2{width:543px;background:url(../images/car/02.jpg) no-repeat;}
+.cars_box .car4{margin-top:20px;width:275px;background:url(../images/car/04.jpg) no-repeat;}
+.cars_box .car5{margin-top:20px;width:270px;background:url(../images/car/05.jpg) no-repeat;}
+.cars_box .car6{margin-top:20px;width:272px;background:url(../images/car/06.jpg) no-repeat;}
+
+#car1_inner{background:rgba(0,0,0,0.4);width:80%;height:80%;position:relative;left:10%;top:10%;color:white;}
+.car1 p:nth-child(1){position:absolute;top:30%;left:25%;height:32px;font:16px/32px "宋体";border-bottom:2px solid #999;cursor:pointer;}
+.car1 p:nth-child(2){position:absolute;top:60%;left:38%;height:32px;font:14px/28px "宋体";color:#db371b;cursor:pointer;}
+
+#car2_inner{background:rgba(0,0,0,0.4);width:80%;height:80%;position:relative;left:10%;top:10%;color:white;}
+.car2 p:nth-child(1){position:absolute;top:30%;left:25%;height:32px;font:16px/32px "宋体";border-bottom:2px solid #999;cursor:pointer;}
+.car2 p:nth-child(2){position:absolute;top:60%;left:45%;height:32px;font:14px/28px "宋体";color:#db371b;cursor:pointer;}
+
+#car4_inner{background:rgba(0,0,0,0.4);width:80%;height:80%;position:relative;left:10%;top:10%;color:white;}
+.car4 p:nth-child(1){position:absolute;top:30%;left:25%;height:32px;font:16px/32px "宋体";border-bottom:2px solid #999;cursor:pointer;}
+.car4 p:nth-child(2){position:absolute;top:60%;left:38%;height:32px;font:14px/28px "宋体";color:#db371b;cursor:pointer;}
+
+#car5_inner{background:rgba(0,0,0,0.4);width:80%;height:80%;position:relative;left:10%;top:10%;color:white;}
+.car5 p:nth-child(1){position:absolute;top:30%;left:25%;height:32px;font:16px/32px "宋体";border-bottom:2px solid #999;cursor:pointer;}
+.car5 p:nth-child(2){position:absolute;top:60%;left:38%;height:32px;font:14px/28px "宋体";color:#db371b;cursor:pointer;}
+
+#car6_inner{background:rgba(0,0,0,0.4);width:80%;height:80%;position:relative;left:10%;top:10%;color:white;}
+.car6 p:nth-child(1){position:absolute;top:30%;left:25%;height:32px;font:16px/32px "宋体";border-bottom:2px solid #999;cursor:pointer;}
+.car6 p:nth-child(2){position:absolute;top:60%;left:38%;height:32px;font:14px/28px "宋体";color:#db371b;cursor:pointer;}
