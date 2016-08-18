@@ -12,6 +12,9 @@ jQuery(document).ready(function($) {
         $('#custumize-style').fadeIn(200);
     });
 
+    $("img.lazy").lazyload({
+        effect : "fadeIn"
+    });
     /* ---------------------------------------------------------------------- */
     /* ------------------------------- Taps profile ------------------------- */
     /* ---------------------------------------------------------------------- */
@@ -268,18 +271,6 @@ jQuery(document).ready(function($) {
 
     $("#xiaoyu").click(function(){
         confirm('这是我大学时制作的视频作品，与前端无关。你愿意看看吗？');
-    });
-
-    /* ---------------------------------------------------------------------- */
-    /* ----------------------------- prettyPhoto ---------------------------- */
-    /* ---------------------------------------------------------------------- */
-
-    $("a[rel^='portfolio']").prettyPhoto({
-        animation_speed: 'fast', /* fast/slow/normal */
-        social_tools: '',
-        theme: 'pp_default',
-        horizontal_padding: 5,
-        deeplinking: false,
     });
 
 
