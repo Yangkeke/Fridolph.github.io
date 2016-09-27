@@ -1,0 +1,27 @@
+/*LINA ADD*/
+.container .logo-align{ margin-top:-50px; }
+.logo-align{position: relative; top:20px;}
+.btn-bg{ background-color:#ae0011;}
+
+.logo-align{ margin-top:-10px; }
+.btn-bg{ background-color:#e62929; border: solid 2px #e62929;}
+.btn-bg:hover{  border: solid 2px #fb4f59;}
+.text-text{ margin-top:-100px; font-family: "Microsoft YaHei" ! important;}
+.fh5co-cover-style-2 > .fh5co-overlay {
+  position: absolute; top: 0; bottom: 0;  left: 0;  right: 0;  background: rgba(0, 0, 0, 0.35);  z-index: 4;
+}
+.marg-left{ margin-left:400px; margin-top:-66px;}   
+.font-text{ font-family: "Microsoft YaHei" ! important; }  
+.fh5co-testimonial-style-2 .fh5co-testimonial-item .fh5co-text p {
+    font-style: normal; font-family:SimHei ; color:#999; font-size:14px;
+    line-height: 27px;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active{ background:#ae0011 !important; border-color:#ae0011 !important;}
+
+
+
+
+
+
+
+
