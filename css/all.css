@@ -794,10 +794,10 @@ h2.resp-accordion:hover .hi-icon, .no-touch .hi-icon-effect-5 .hi-icon:hover {
 .skillbar-title, .skillbar-bar {
     background: rgba(59, 89, 152, 0.8);
 }
-.portfolio .label-bg, #filters li span.active {
+.portfolio .label-bg, #filters li span.active, #filters_lib li span.active {
     background: #3B5998;
 }
-.portfolio .label-bg, #filters li span:hover  {
+.portfolio .label-bg, #filters li span:hover, #filters_lib li span:hover  {
     background: #3B5998;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -1410,7 +1410,7 @@ h2.resp-accordion:hover {
     transition: all 1s ease;  
 }
 
-#filters {
+#filters, #filters_lib {
     margin:1%;
     padding:0;
     list-style:none;
@@ -1418,12 +1418,12 @@ h2.resp-accordion:hover {
 
 }
 
-#filters li {
+#filters li, #filters_lib li {
     float:left;
     text-align: center;
 }
 
-#filters li span {
+#filters li span, #filters_lib li {
     display: block;
     padding:5px 20px;   
     text-decoration:none;
@@ -1433,7 +1433,7 @@ h2.resp-accordion:hover {
     margin: 2px;
 }
 
-#filters li span.active {
+#filters li span.active, #filters_lib li span.active {
     color:#fff;
 }
 
@@ -1516,7 +1516,7 @@ h2.resp-accordion:hover {
 
 @media only screen and (max-width: 550px) {
 
-    #filters li  {
+    #filters li, #filters_lib li  {
         width: 100%;
     }
 

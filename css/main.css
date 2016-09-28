@@ -546,7 +546,7 @@ h2.resp-accordion:hover {
     transition: all 1s ease;	
 }
 
-#filters {
+#filters, #filters_lib {
     margin:1%;
     padding:0;
     list-style:none;
@@ -554,12 +554,12 @@ h2.resp-accordion:hover {
 
 }
 
-#filters li {
+#filters li, #filters_lib li {
     float:left;
     text-align: center;
 }
 
-#filters li span {
+#filters li span, #filters_lib li span {
     display: block;
     padding:5px 20px;		
     text-decoration:none;
@@ -569,7 +569,7 @@ h2.resp-accordion:hover {
     margin: 2px;
 }
 
-#filters li span.active {
+#filters li span.active, #filters_lib {
     color:#fff;
 }
 
@@ -652,7 +652,7 @@ h2.resp-accordion:hover {
 
 @media only screen and (max-width: 550px) {
 
-    #filters li  {
+    #filters li, #filters_lib  {
         width: 100%;
     }
 
