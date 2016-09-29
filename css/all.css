@@ -1437,7 +1437,7 @@ h2.resp-accordion:hover {
     color:#fff;
 }
 
-#portfoliolist .portfolio {
+#portfoliolist .portfolio, #portfoliolist_lib .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -1501,7 +1501,7 @@ h2.resp-accordion:hover {
 
 @media only screen and (max-width: 767px) {
 
-    #portfoliolist .portfolio {
+    #portfoliolist .portfolio, #portfoliolist_lib .portfolio, {
         width:48%;
         margin:1%;
     } 
