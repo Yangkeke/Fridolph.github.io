@@ -266,8 +266,42 @@ jQuery(document).ready(function($) {
 
     };
 
+    var filterList2 = {
+        init: function() {
+
+            // MixItUp plugin
+            // http://mixitup.io
+            $('#portfoliolist_lib').mixitup({
+                targetSelector: '.portfolio_lib',
+                filterSelector: '.filter_lib',
+                effects: ['fade'],
+                easing: 'snap',
+                // call the hover effect
+                onMixEnd: filterList2.hoverEffect()
+            });
+
+        },
+        hoverEffect: function() {
+
+            // Simple parallax effect
+            $('#portfoliolist_lib .portfolio').hover(
+                    function() {
+                        $(this).find('.label').stop().animate({bottom: 0}, 200);
+                        $(this).find('img').stop().animate({top: -30}, 500);
+                    },
+                    function() {
+                        $(this).find('.label').stop().animate({bottom: -40}, 200);
+                        $(this).find('img').stop().animate({top: 0}, 300);
+                    }
+            );
+
+        }
+
+    };
+
     // Run the show!
     filterList.init();
+    filterList2.init();
 
     $("#xiaoyu").click(function(){
         confirm('这是我大学时制作的视频作品，与前端无关。你愿意看看吗？');
