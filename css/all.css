@@ -1423,7 +1423,7 @@ h2.resp-accordion:hover {
     text-align: center;
 }
 
-#filters li span, #filters_lib li {
+#filters li span, #filters_lib li span {
     display: block;
     padding:5px 20px;   
     text-decoration:none;
@@ -1437,7 +1437,7 @@ h2.resp-accordion:hover {
     color:#fff;
 }
 
-#portfoliolist .portfolio, #portfoliolist_lib .portfolio {
+#portfoliolist .portfolio, #portfoliolist_lib .portfolio_lib {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -1455,12 +1455,12 @@ h2.resp-accordion:hover {
     cursor:pointer;
 }
 
-.portfolio img {
+.portfolio img, .portfolio_lib img {
     max-width:100%;
     position: relative;
 }
 
-.portfolio .label {
+.portfolio .label, .portfolio_lib .label {
     position: absolute;
     width: 100%;
     height:40px;
@@ -1468,7 +1468,7 @@ h2.resp-accordion:hover {
     display: block !important;
 }
 
-.portfolio .label-bg {
+.portfolio .label-bg, .portfolio_lib .label-bg {
     width: 100%;
     height:100%;
     position: absolute;
@@ -1476,7 +1476,7 @@ h2.resp-accordion:hover {
     left:0;
 }
 
-.portfolio .label-text {
+.portfolio .label-text, .portfolio_lib .label-text {
     color:#fff;
     position: relative;
     z-index:500;
@@ -1484,7 +1484,7 @@ h2.resp-accordion:hover {
     font-weight:300;
 }
 
-.portfolio .text-title {
+.portfolio .text-title, .portfolio_lib .text-title {
     display:block;
     font-size:13px;
     margin: 1px;
@@ -1501,7 +1501,7 @@ h2.resp-accordion:hover {
 
 @media only screen and (max-width: 767px) {
 
-    #portfoliolist .portfolio, #portfoliolist_lib .portfolio, {
+    #portfoliolist .portfolio, #portfoliolist_lib .portfolio_lib, {
         width:48%;
         margin:1%;
     } 
