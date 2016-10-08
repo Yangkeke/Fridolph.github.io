@@ -272,8 +272,8 @@ jQuery(document).ready(function($) {
             // MixItUp plugin
             // http://mixitup.io
             $('#portfoliolist_lib').mixitup({
-                targetSelector: '.portfolio_lib',
-                filterSelector: '.filter_lib',
+                targetSelector: '.portfolio',
+                filterSelector: '.filter',
                 effects: ['fade'],
                 easing: 'snap',
                 // call the hover effect
@@ -284,7 +284,7 @@ jQuery(document).ready(function($) {
         hoverEffect: function() {
 
             // Simple parallax effect
-            $('#portfoliolist_lib .portfolio_lib').hover(
+            $('#portfoliolist_lib .portfolio').hover(
                     function() {
                         $(this).find('.label').stop().animate({bottom: 0}, 200);
                         $(this).find('img').stop().animate({top: -30}, 500);
