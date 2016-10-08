@@ -284,7 +284,7 @@ jQuery(document).ready(function($) {
         hoverEffect: function() {
 
             // Simple parallax effect
-            $('#portfoliolist_lib .portfolio').hover(
+            $('#portfoliolist_lib .portfolio_lib').hover(
                     function() {
                         $(this).find('.label').stop().animate({bottom: 0}, 200);
                         $(this).find('img').stop().animate({top: -30}, 500);
